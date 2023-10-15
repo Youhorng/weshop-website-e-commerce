@@ -1,0 +1,63 @@
+* {
+    font-family: 'Belgrano', serif;
+}
+header {
+    margin: 30px 100px;
+}
+main {
+    margin-top: 50px;
+}
+.slogan-container {
+    background-color: #F1EFEF;
+}
+.carousel-item {
+    background-color: #F1EFEF;
+}
+.card-background {
+    background-color: #F1EFEF;
+}
+.future-container {
+    position: relative;
+    margin-top: 50px;
+}
+.future-container > img {
+    margin-left: 100px;
+    width: 65%;
+}
+.text-box {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    right: 100px;
+    top: 200px;
+    background-color: #F1EFEF;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+}
+
+.text-box h2 {
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 0px;
+    color: #333;
+}
+
+.text-box p {
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 0px;
+    color: #555;
+}
+footer {
+    margin-top: 100px;
+    background-color: black;
+}
+@media (max-width: 1148px) {
+    .text-box {
+        display: none;
+    }
+}
+
+
+

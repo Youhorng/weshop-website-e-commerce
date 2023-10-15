@@ -1,0 +1,37 @@
+* {
+    font-family: 'Belgrano', serif;
+}
+header {
+    margin: 30px 100px;
+}
+footer {
+    margin-top: 100px;
+    background-color: black;
+}
+form .text-field {
+    position: relative;
+    margin: 50px;
+}
+.text-field input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+    margin-top: 60px;
+}
+.text-field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+
